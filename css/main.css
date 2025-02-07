@@ -47,6 +47,7 @@ a {
 	position: fixed;
 	top: 2rem;
 	min-height: 5rem;
+	max-width: 90vw;
     padding-left: 1rem;
     padding-right: 1rem;
 	background-color: rgba(40,40,40);
@@ -133,9 +134,19 @@ p {
         margin: 1rem;
     }
     .buttongrid {
+		display: grid;
         justify-self: center;
         margin: auto;
+		grid-template-columns: 15rem 15rem 15rem;
     }
+	.cardbuttongrid {
+		display: grid;
+		grid-template-columns: 20rem 20rem;
+		margin-top: 2rem;
+	}
+	.cardbutton {
+		margin: .25rem;
+	}
     .button {
         min-width: 10rem;
         margin: 0.25rem;
